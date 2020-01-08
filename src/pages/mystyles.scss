@@ -3,4 +3,42 @@
 // If need, change your variables before importing Bulma
 // $title-color: #ff0000;
 
+// .devBox {
+//   border: 3px solid red;
+// }
+
+$fullhd: 950px;
+
+.hero-body {
+  padding: 2rem 1.5rem !important;
+}
+
+
+.profileContentBox {
+  display: flex;
+}
+
+.profileContentBox > div {
+  margin-left: 35px;
+  padding-top: 32px;
+}
+
+.profileImageBox {
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgb(43, 43, 43);
+}
+
+.profileSubContentBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px !important;
+}
+
+.uleamImageBox {
+  width: 280px;
+}
+
 @import "~bulma/bulma.sass";

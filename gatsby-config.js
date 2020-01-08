@@ -3,6 +3,7 @@ module.exports = {
     title: `Enzo Aliatis`,
     description: `This is Enzo Aliatis's CV`,
     jobProfile: `Full Stack Developer`,
+    email: `enzo.aliatis@gmail.com`,
     author: `@enzoaliatis`,
   },
   plugins: [
