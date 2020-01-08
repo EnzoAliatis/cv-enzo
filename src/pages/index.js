@@ -10,7 +10,7 @@ const IndexPage = ({ siteTitle }) => (
   <Layout>
     <SEO title='CV' />
     <ProProfile />
-    <div className="container">
+    {/* <div className="container">
       <div className="columns">
         <div className="column">
           <h2 className="title is-2">Level 2 heading</h2>
@@ -21,7 +21,7 @@ const IndexPage = ({ siteTitle }) => (
           <p className="content">This column is cool too!</p>
         </div>
       </div>
-    </div>
+    </div> */}
   </Layout>
 )
 
