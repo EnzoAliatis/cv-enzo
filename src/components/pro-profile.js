@@ -39,11 +39,11 @@ const ProProfile = () => {
               <ProfileImage />
             </figure>
             <div>
-              <h1 className="title has-text-white">{photo.siteMetadata.title}</h1>
-              <h2 className="subtitle has-text-white" style={{ marginBottom: 0 }}>
+              <h1 className="title">{photo.siteMetadata.title}</h1>
+              <h2 className="subtitle" style={{ marginBottom: 0 }}>
                 {photo.siteMetadata.jobProfile}
               </h2>
-              <h6 className="subtitle is-6 has-text-white">{photo.siteMetadata.email}</h6>
+              <h6 className="subtitle is-6">{photo.siteMetadata.email}</h6>
             </div>
           </div>
           <div className="container profileSubContentBox devBox">
