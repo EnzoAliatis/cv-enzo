@@ -5,11 +5,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./mystyles.scss"
 import ProProfile from "../components/pro-profile"
+import TimelineSection from "../components/timeline-section"
 
 const IndexPage = ({ siteTitle }) => (
   <Layout>
     <SEO title='CV' />
     <ProProfile />
+    <TimelineSection />
     {/* <div className="container">
       <div className="columns">
         <div className="column">

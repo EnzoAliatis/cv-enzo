@@ -34,7 +34,7 @@ const ProProfile = () => {
     >
       <section className="hero">
         <div className="hero-body">
-          <div className="container profileContentBox devBox">
+          <div className="container profileContentBox">
             <figure className="image profileImageBox">
               <ProfileImage />
             </figure>
@@ -46,7 +46,7 @@ const ProProfile = () => {
               <h6 className="subtitle is-6">{photo.siteMetadata.email}</h6>
             </div>
           </div>
-          <div className="container profileSubContentBox devBox">
+          <div className="container profileSubContentBox">
             <figure className="image uleamImageBox">
               <UleamLogoImage />
             </figure>

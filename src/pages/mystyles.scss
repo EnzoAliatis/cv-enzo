@@ -3,12 +3,15 @@
 // If need, change your variables before importing Bulma
 $title-color: #fff;
 $subtitle-color: #fff;
+$fullhd: 950px;
+$hr-background-color: none;
+
+@import "~bulma/bulma.sass";
 
 // .devBox {
 //   border: 3px solid red;
 // }
 
-$fullhd: 950px;
 
 
 .hero-body {
@@ -45,11 +48,12 @@ $fullhd: 950px;
 }
 
 
-@import "~bulma/bulma.sass";
 
 
 
-// MEDIAS
+
+
+// MEDIAS START
 
 @media (max-width: 768px ) {
   .profileContentBox, .profileSubContentBox {
@@ -58,3 +62,116 @@ $fullhd: 950px;
     align-items: center;
   }
 }
+
+
+// MEDIAS END
+
+
+// TIMELINE START
+$bg: $grey-darker;
+
+$color: #ed8d8d;
+
+
+.blue-bg {
+  background-color: $bg;
+  color: $color;
+  height: 100%;
+}
+
+.circle {
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: $color;
+  color: $bg;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.columns {
+  display: flex;
+  .column.is-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      content: "";
+      position: absolute;
+      border-left: 3px solid $color;
+      z-index: 1;
+    }
+  }
+  .column.is-2.bottom {
+    position: relative;
+    &::after {
+      height: 50%;
+      left: 50%;
+      top: 50%;
+    }
+  }
+  .column.is-2.full {
+    position: relative;
+    &::after {
+      height: 100%;
+      left: calc(50% - 3px);
+    }
+  }
+  .column.is-2.top {
+    position: relative;
+    &::after {
+      height: 50%;
+      left: 50%;
+      top: 0;
+    }
+  }
+}
+
+.timeline {
+  div {
+    padding: 0;
+    height: 40px;
+  }
+  hr {
+    border-top: 3px solid $color;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .column.is-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .corner {
+    border: 3px solid $color;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+}
+
+.align-items-center {
+  align-items: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+// TIMELINE END
+
