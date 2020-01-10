@@ -4,6 +4,7 @@
 $title-color: #fff;
 $subtitle-color: #fff;
 $fullhd: 950px;
+// Arregla esto con las comunas
 $hr-background-color: none;
 
 @import "~bulma/bulma.sass";
@@ -118,6 +119,13 @@ $color: #ed8d8d;
       left: calc(50% - 3px);
     }
   }
+  .column.is-2.fulls {
+    position: relative;
+    &::after {
+      height: 100%;
+      left: calc(50%);
+    }
+  }
   .column.is-2.top {
     position: relative;
     &::after {
@@ -172,6 +180,18 @@ $color: #ed8d8d;
 }
 .justify-content-end {
   justify-content: flex-end;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 9px solid #ED8D8D;
+  margin-left: 91.6%;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 // TIMELINE END
 

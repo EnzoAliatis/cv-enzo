@@ -17,7 +17,7 @@ const TimelineSection = () => {
               <div className="container-fluid blue-bg">
                 <div className="container">
                   <div className="columns is-mobile align-items-center how-it-works">
-                    <div className="column is-2 bottom">
+                    <div className="column is-2 has-text-centered bottom">
                       <div className="circle">1</div>
                     </div>
                     <div className="column is-6">
@@ -65,7 +65,7 @@ const TimelineSection = () => {
                     </div>
                   </div>
                   <div className="columns is-mobile align-items-center how-it-works">
-                    <div className="column is-2 top">
+                    <div className="column is-2 fulls">
                       <div className="circle">3</div>
                     </div>
                     <div className="column is-6">
@@ -77,6 +77,44 @@ const TimelineSection = () => {
                       </p>
                     </div>
                   </div>
+                  <div className="columns is-mobile align-items-center how-it-works">
+                    <div className="column is-2 has-text-centered fulls">
+                      <div className="circle">1</div>
+                    </div>
+                    <div className="column is-6">
+                      <h5>Fully Responsive</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed porttitor gravida aliquam. Morbi orci urna, iaculis
+                        in ligula et, posuere interdum lectus.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="columns is-mobile timeline">
+                    <div className="column is-2">
+                      <div className="corner top-right"></div>
+                    </div>
+                    <div className="column is-8">
+                      <hr />
+                    </div>
+                    <div className="column is-2">
+                      <div className="corner left-bottom"></div>
+                    </div>
+                  </div>
+                  <div className="columns is-mobile align-items-center justify-content-end how-it-works mb-0">
+                    <div className="column is-6 has-text-right">
+                      <h5>Using Bootstrap</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed porttitor gravida aliquam. Morbi orci urna, iaculis
+                        in ligula et, posuere interdum lectus.
+                      </p>
+                    </div>
+                    <div className="column is-2  has-text-centered full">
+                      <div className="circle">2</div>
+                    </div>
+                  </div>
+                    <div className="arrow-down"></div>
                 </div>
               </div>
             </div>
