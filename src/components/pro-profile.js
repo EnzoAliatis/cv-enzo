@@ -34,15 +34,16 @@ const ProProfile = () => {
     >
       <section className="hero">
         <div className="hero-body">
-          <div className="columns is-centered is-multiline">
-            <div className="column is-three-quarters">
-              <div className="columns">
-                <div className="column is-one-fifth">
+          <div className='container'>
+          <div className="columns is-mobile is-centered is-multiline">
+            <div className="column is-two-thirds-desktop">
+              <div className="columns is-vcentered">
+                <div className="column is-narrow">
                   <figure className="image profileImageBox">
                     <ProfileImage />
                   </figure>
                 </div>
-                <div className="column">
+                <div className="column has-text-centered-mobile">
                   <h1 className="title">{photo.siteMetadata.title}</h1>
                   <h2 className="subtitle" style={{ marginBottom: 0 }}>
                     {photo.siteMetadata.jobProfile}
@@ -51,14 +52,14 @@ const ProProfile = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-three-quarters">
+            <div className="column is-two-thirds-desktop">
               <div className="columns">
-                <div className="column">
+                <div className="column is-content-centered-mobile">
                   <figure className="image uleamImageBox">
                     <UleamLogoImage />
                   </figure>
                 </div>
-                <div className="column">
+                <div className="column is-content-centered has-text-centered">
                   <p>
                     I'm in last year of engineer in computational system. <br />
                     Passionate about the code and problem solver with technology
@@ -67,6 +68,8 @@ const ProProfile = () => {
                 </div>
               </div>
             </div>
+          </div>
+            
           </div>
         </div>
       </section>

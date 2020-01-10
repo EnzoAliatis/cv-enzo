@@ -34,6 +34,7 @@ $hr-background-color: none;
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid rgb(43, 43, 43);
+  margin: auto;
 }
 
 .profileSubContentBox {
@@ -46,13 +47,27 @@ $hr-background-color: none;
 
 .uleamImageBox {
   width: 280px;
+
 }
 
 
 
+// HELPERS
 
+.is-content-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.is-content-centered-mobile {
+  @media (max-width: 768px ) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
-
+// END HELPERS
 
 // MEDIAS START
 
