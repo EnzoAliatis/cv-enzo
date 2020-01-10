@@ -14,6 +14,9 @@ $hr-background-color: none;
 // }
 
 
+body {
+  background-color: $dark;
+}
 
 .hero-body {
   padding: 2rem 1.5rem !important;
@@ -101,7 +104,8 @@ $color: #ed8d8d;
   border-radius: 50%;
   background-color: $color;
   color: $bg;
-  max-height: 50px;
+  height: 55px;
+  width: 55px;
   z-index: 2;
 }
 

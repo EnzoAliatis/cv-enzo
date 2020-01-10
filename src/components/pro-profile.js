@@ -52,7 +52,7 @@ const ProProfile = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-two-thirds-desktop">
+            <div className="column is-two-thirds-desktop is-content-centered-mobile">
               <div className="columns">
                 <div className="column is-content-centered-mobile">
                   <figure className="image uleamImageBox">
@@ -69,7 +69,6 @@ const ProProfile = () => {
               </div>
             </div>
           </div>
-            
           </div>
         </div>
       </section>

@@ -18,7 +18,7 @@ const TimelineSection = () => {
                 <div className="container">
                   <div className="columns is-mobile align-items-center how-it-works">
                     <div className="column is-2 has-text-centered bottom">
-                      <div className="circle">1</div>
+                      <div className="circle is-content-centered">2016</div>
                     </div>
                     <div className="column is-6">
                       <h5>Fully Responsive</h5>
@@ -50,7 +50,7 @@ const TimelineSection = () => {
                       </p>
                     </div>
                     <div className="column is-2  has-text-centered full">
-                      <div className="circle">2</div>
+                      <div className="circle is-content-centered">2018</div>
                     </div>
                   </div>
                   <div className="columns is-mobile timeline">
@@ -66,7 +66,7 @@ const TimelineSection = () => {
                   </div>
                   <div className="columns is-mobile align-items-center how-it-works">
                     <div className="column is-2 fulls">
-                      <div className="circle">3</div>
+                      <div className="circle is-content-centered">2019</div>
                     </div>
                     <div className="column is-6">
                       <h5>Now with Pug and Sass</h5>
@@ -79,7 +79,7 @@ const TimelineSection = () => {
                   </div>
                   <div className="columns is-mobile align-items-center how-it-works">
                     <div className="column is-2 has-text-centered fulls">
-                      <div className="circle">1</div>
+                      <div className="circle is-content-centered">2019</div>
                     </div>
                     <div className="column is-6">
                       <h5>Fully Responsive</h5>
@@ -111,7 +111,7 @@ const TimelineSection = () => {
                       </p>
                     </div>
                     <div className="column is-2  has-text-centered full">
-                      <div className="circle">2</div>
+                      <div className="circle is-content-centered">2020</div>
                     </div>
                   </div>
                     <div className="arrow-down"></div>
