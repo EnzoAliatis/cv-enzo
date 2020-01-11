@@ -6,12 +6,14 @@ import SEO from "../components/seo"
 import "./mystyles.scss"
 import ProProfile from "../components/pro-profile"
 import TimelineSection from "../components/timeline-section"
+import KnowledgeSection from "../components/knowledge-section"
 
 const IndexPage = ({ siteTitle }) => (
   <Layout>
     <SEO title='CV' />
     <ProProfile />
     <TimelineSection />
+    <KnowledgeSection />
     {/* <div className="container">
       <div className="columns">
         <div className="column">
