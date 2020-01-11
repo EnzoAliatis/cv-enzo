@@ -5,15 +5,15 @@ const TimelineSection = () => {
     <section className="hero is-dark">
       <div className="hero-body">
         <div className="container">
-          <div className="columns">
-            <div className="column devBox">
+          <div className="columns is-centered">
+            <div className="column is-three-quarters-desktop">
               <h2 className="title is-2 has-text-centered">
                 Experience overview
               </h2>
             </div>
           </div>
-          <div className="columns">
-            <div className="column devBox">
+          <div className="columns is-centered">
+            <div className="column is-three-quarters-desktop">
               <div className="container-fluid blue-bg">
                 <div className="container">
                   <div className="columns is-mobile align-items-center how-it-works">

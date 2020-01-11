@@ -15,7 +15,7 @@ const ProProfile = () => {
             email
           }
         }
-        background: file(relativePath: { eq: "backgorund3.jpg" }) {
+        background: file(relativePath: { eq: "backgorund.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -54,7 +54,7 @@ const ProProfile = () => {
             </div>
             <div className="column is-two-thirds-desktop is-content-centered-mobile">
               <div className="columns">
-                <div className="column is-content-centered-mobile">
+                <div className="column is-content-centered-mobile is-content-centered-tablet ">
                   <figure className="image uleamImageBox">
                     <UleamLogoImage />
                   </figure>

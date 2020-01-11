@@ -9,9 +9,9 @@ $hr-background-color: none;
 
 @import "~bulma/bulma.sass";
 
-// .devBox {
-//   border: 3px solid red;
-// }
+.devBox {
+  border: 3px solid red;
+}
 
 
 body {
@@ -69,6 +69,13 @@ body {
     align-items: center;
   }
 }
+.is-content-centered-tablet {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 // END HELPERS
 
@@ -89,7 +96,7 @@ body {
 // TIMELINE START
 $bg: $grey-darker;
 
-$color: #ed8d8d;
+$color: #87D6A3;
 
 
 .blue-bg {
@@ -206,7 +213,7 @@ $color: #ed8d8d;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   
-  border-top: 9px solid #ED8D8D;
+  border-top: 9px solid $color;
   margin-left: 91.6%;
 }
 .mb-0 {
