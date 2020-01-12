@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "cv-enzo-aliatis",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A simple CV",
+  "version": "1.0.0",
+  "author": "Enzo P. Aliatis R.",
   "dependencies": {
     "bulma": "^0.8.0",
     "gatsby": "^2.18.12",
