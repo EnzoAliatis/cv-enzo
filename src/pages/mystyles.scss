@@ -7,6 +7,11 @@ $subtitle-color: #fff;
 // Arregla esto con las comunas
 $hr-background-color: none;
 
+$novice: #1eff00;
+$rare: #0070dd;
+$epic: #a335ee;
+$legendary: #ff8000;
+
 @import "~bulma/bulma.sass";
 
 .devBox {
@@ -114,6 +119,20 @@ $color: #87D6A3;
   height: 55px;
   width: 55px;
   z-index: 2;
+}
+
+.circle-k {
+  font-size: small;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: $color;
+  color: $black;
+  height: 40px;
+  width: 40px;
+  height: 20px;
+    width: 20px;
+    padding: 0;
+    color: #fff;
 }
 
 .how-it-works.columns {
