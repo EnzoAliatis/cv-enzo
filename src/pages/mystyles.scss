@@ -241,7 +241,9 @@ $color: #87D6A3;
   border-right: 8px solid transparent;
   
   border-top: 9px solid $color;
-  margin-left: 91.6%;
+  position: absolute;
+  bottom: -9px;
+  left: 45%;
 }
 .mb-0 {
   margin-bottom: 0 !important;
