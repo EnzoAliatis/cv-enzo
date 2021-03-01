@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="column" style={{ margin: "auto" }}>
-            <small className="has-text-grey-dark">© 2020-2021</small>
+            <small className="has-text-grey-dark">© 2021-2022</small>
           </div>
         </div>
       </div>
