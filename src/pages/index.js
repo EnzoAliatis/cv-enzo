@@ -11,7 +11,7 @@ import LanguageSection from "../components/language-section"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='CV' />
+    <SEO title='Enzo Aliatis' />
     <ProProfile />
     <TimelineSection />
     <KnowledgeSection />

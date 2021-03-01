@@ -61,7 +61,7 @@ const ProProfile = () => {
                 </div>
                 <div className="column is-content-centered has-text-centered">
                   <p>
-                    I'm in last year of engineer in computational system. <br />
+                    I'm in last level of engineer in computational system. <br />
                     Passionate about the code and problem solver with technology
                     as the main resource. Programming since 2016
                   </p>

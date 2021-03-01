@@ -18,6 +18,12 @@ const KnowledgeSection = () => {
   const novice = '#1eff00'
   const languageK = [
     {
+      id: 0,
+      color: advance,
+      lvl: 'A',
+      text: 'Golang'
+    },
+    {
       id: 1,
       color: advance,
       lvl: 'A',
@@ -27,7 +33,7 @@ const KnowledgeSection = () => {
       id: 2,
       color: inter,
       lvl: 'I',
-      text: 'Java & Python'
+      text: 'Java'
     },
     {
       id: 3,
@@ -97,15 +103,21 @@ const KnowledgeSection = () => {
       id: 13,
       color: inter,
       lvl: 'I',
-      text: 'Postgress & MySql'
+      text: 'Postgress'
+    },
+    {
+      id: 31,
+      color: inter,
+      lvl: 'I',
+      text: 'Mysql'
     }
   ]
 
   const devopsK = [
     {
       id: 14,
-      color: inter,
-      lvl: 'I',
+      color: advance,
+      lvl: 'A',
       text: 'AWS'
     },
     {
@@ -115,14 +127,32 @@ const KnowledgeSection = () => {
       text: 'Netlify'
     },
     {
-      id: 16,
-      color: novice,
-      lvl: 'N',
-      text: 'GCP'
-    }
+      id: 20,
+      color: inter,
+      lvl: 'I',
+      text: 'Docker'
+    },
+    {
+      id: 21,
+      color: inter,
+      lvl: 'I',
+      text: 'Docker Swarm'
+    },
+    {
+      id: 22,
+      color: inter,
+      lvl: 'I',
+      text: 'Kubernetes'
+    },
   ]
 
   const os = [
+    {
+      id: 25,
+      color: advance,
+      lvl: 'A',
+      text: 'Linux'
+    },
     {
       id: 17,
       color: advance,
@@ -155,9 +185,39 @@ const KnowledgeSection = () => {
       color: inter,
       lvl: 'I',
       text: 'GitLab'
-    }
+    },
+    {
+      id: 29,
+      color: inter,
+      lvl: 'I',
+      text: 'Bitbucket'
+    },
   ]
   const otherSK = [
+    {
+      id: 32,
+      color: inter,
+      lvl: 'I',
+      text: 'Microservices'
+    },
+    {
+      id: 40,
+      color: inter,
+      lvl: 'I',
+      text: 'CQRS'
+    },
+    {
+      id: 41,
+      color: advance,
+      lvl: 'A',
+      text: 'Domain driven design (DDD)'
+    },
+    {
+      id: 42,
+      color: inter,
+      lvl: 'I',
+      text: 'Backend Uinit & Integration Test'
+    },
     {
       id: 22,
       color: advance,
