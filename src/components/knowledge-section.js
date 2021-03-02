@@ -116,8 +116,8 @@ const KnowledgeSection = () => {
   const devopsK = [
     {
       id: 14,
-      color: advance,
-      lvl: 'A',
+      color: inter,
+      lvl: 'I',
       text: 'AWS'
     },
     {
