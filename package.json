@@ -6,7 +6,7 @@
   "author": "Enzo P. Aliatis R.",
   "dependencies": {
     "bulma": "^0.8.0",
-    "gatsby": "^2.18.12",
+    "gatsby": "^5.9.0",
     "gatsby-background-image": "^0.9.12",
     "gatsby-cli": "^2.8.26",
     "gatsby-image": "^2.2.34",
@@ -14,7 +14,7 @@
     "gatsby-plugin-offline": "^3.0.27",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sass": "^2.1.26",
-    "gatsby-plugin-sharp": "^2.3.5",
+    "gatsby-plugin-sharp": "^2.14.3",
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-sharp": "^2.3.7",
     "node-sass": "^4.13.0",
