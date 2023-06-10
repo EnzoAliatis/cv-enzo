@@ -6,7 +6,7 @@
   "author": "Enzo P. Aliatis R.",
   "dependencies": {
     "bulma": "^0.8.0",
-    "gatsby": "^2.18.12",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.9.12",
     "gatsby-cli": "^2.8.26",
     "gatsby-image": "^2.2.34",
